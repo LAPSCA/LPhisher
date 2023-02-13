@@ -1,0 +1,5 @@
+1. I screwed it unintentionally in update 2.1, 2.2, and 2.3, 2.4 and 2.5 xD if you start it and it comes out that there is an actialization repetitively.
+   Execute this command and it would be solved in its last version:
+   
+   
+   cd .. && rm -rf LPhisher && git clone https://github.com/LAPSCA/LPhisher.git && cd LPhisher && python3 LPhisher.py

@@ -4,7 +4,6 @@
 """
 
 {
-
  _     ____  _   _ ___ ____  _   _ _____ ____
 | |   |  _ \| | | |_ _/ ___|| | | | ____|  _ \
 | |   | |_) | |_| || |\___ \| |_| |  _| | |_) |
@@ -39,7 +38,7 @@ bwhite="\033[1;37m"
 
 nc="\033[00m"
 
-version="2.5"
+version="1.0"
 
 ask = bgreen + '[' + bwhite + '-' + bgreen + '] '+ byellow
 success = byellow + '[' + bwhite + '√' + byellow + '] '+bgreen
@@ -51,7 +50,6 @@ info2= bgreen + '[' + bwhite + '•' + bgreen + '] '+ bpurple
 logo=f'''
 
 {white}- - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-{bpurple}    
 {bcyan}    _     ____  _   _ ___ ____  _   _ _____ ____
 {bpurple} | |   |  _ \| | | |_ _/ ___|| | | | ____|  _ \
 {bcyan  } | |   | |_) | |_| || |\___ \| |_| |  _| | |_) |
@@ -143,7 +141,7 @@ def options():
         k+=1
         print()
     print()
-    print(green+'['+bwhite+'x'+bgreen+']'+byellow+' Acerca de                  '+bgreen+'['+bwhite+'m'+bgreen+']'+byellow+' Mas herramientas       '+bgreen+'['+bwhite+'0'+bgreen+']'+byellow+' Salir')
+    print(green+'['+bwhite+'x'+bgreen+']'+byellow+' About                  '+bgreen+'['+bwhite+'m'+bgreen+']'+byellow+' More tools       '+bgreen+'['+bwhite+'0'+bgreen+']'+byellow+' Go out')
     print()
     print()
 

@@ -69,15 +69,9 @@ Steps:
 
 Share the link that was generated :D
 
-# how it should look
-- The green covers personal information
-- The yellow arrow points to the link to be shared
-
-<img src="/files/image4~3.jpeg" height="400">
-
 # Result
 
-- The link you sent to the victim:
+- The link you sent to the victim Example Like This one Facebook :
 
 ![chrome-NQpwa-Yi-Wxc.png](https://i.postimg.cc/mrxzN5JH/chrome-NQpwa-Yi-Wxc.png)
 

